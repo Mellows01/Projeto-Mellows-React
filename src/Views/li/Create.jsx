@@ -5,7 +5,7 @@ import LiService from "../../services/LiService";
 import '../../styles/home.css';
 
 export default function Create() {
-     
+
     const [nome, setNome] = useState("");
     const [autor, setAutor] = useState("");
     const [genero, setGenero] = useState("");
@@ -76,7 +76,7 @@ export default function Create() {
                         onChange={(e) => setNivel(e.target.value)} className="form-control" />
                 </div>
                 <button type="submit" className="btn" id="btnAdmin" onClick={(e) => criarOuEditarLi(e)}>Enviar</button>
-                <Link to="/livros-interativos" className="btn" id="btnAdmin" style={{marginLeft: "10px"}}>
+                <Link to="/livros-interativos" className="btn" id="btnAdmin" style={{ marginLeft: "10px" }}>
                     Cancelar </Link>
             </form>
         </div>

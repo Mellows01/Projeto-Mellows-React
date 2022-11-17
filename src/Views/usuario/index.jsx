@@ -39,29 +39,29 @@ export default function Index() {
         <>
             <section className="container" id="bodyAdmin">
 
-                <ul class="nav justify-content-center pt-4">
-                    <li class="nav-item">
-                        <Link to="/usuarios" class="nav-link" aria-current="page" style={{color:'black'}}>Usuários</Link>
+                <ul className="nav justify-content-center">
+                    <li className="nav-item">
+                        <Link to="/usuarios" className="nav-link" aria-current="page" style={{ color: 'black' }}>Usuários</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/login" class="nav-link" style={{color:'black'}}>Login</Link>
+                    <li className="nav-item">
+                        <Link to="/login" className="nav-link" style={{ color: 'black' }}>Login</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/livros" class="nav-link" style={{color:'black'}}>Livros </Link>
+                    <li className="nav-item">
+                        <Link to="/livros" className="nav-link" style={{ color: 'black' }}>Livros </Link>
                     </li>
-                    <li class="nav-item">
-                        <Link to="/livros-interativos" class="nav-link" style={{color:'black'}}>Livros Interativos</Link>
+                    <li className="nav-item">
+                        <Link to="/livros-interativos" className="nav-link" style={{ color: 'black' }}>Livros Interativos</Link>
                     </li>
                 </ul>
 
-                <div className="p-4">
+                <div className="table-responsive-sm">
                     <div className="row justify-content-center mt-4">
                         <Link to="/usuario-cadastrar" className="btn mb-2 botao1"
                             style={{ backgroundColor: "#c9c6f3ed" }}
                         > Novo Usuário</Link>
                     </div>
 
-                    <table className="table table-responsive table-hover">
+                    <table className="table table-hover">
                         <thead className="table-light">
                             <tr>
                                 <th scope="col">ID</th>
