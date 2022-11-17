@@ -216,6 +216,8 @@ body {
 
 /*Quem Somos*/
 #recode {
+    width: 105px;
+    height: 50px;
     margin: auto;
     display: block;
     padding-top: 10px;
