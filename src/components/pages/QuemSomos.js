@@ -6,9 +6,9 @@ import '../../styles/home.css';
 function QuemSomos() {
     return (
         <>
-            <section section id="body">
+            <section  id="body">
 
-            <div className="container">
+            <div className="container box">
                 <img src={mellowsTrio} alt="mellowsTrio" id="trioMellow"/>
             </div>
 

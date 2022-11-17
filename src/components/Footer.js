@@ -3,31 +3,31 @@ import mellowRoxo from './img/mellowRoxo.png'
 
 function Footer() {
     return (
-        <footer class="footer fixed-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-12">
+        <footer className="footer fixed-bottom">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4 col-sm-12">
                         <h6>
-                            <i class="fa-solid fa-envelope" id="em"></i>
+                            <i className="fa-solid fa-envelope" id="em"></i>
                             Fale com a gente!
                         </h6>
-                        <a href="" class="list">contato@mellows.com.br</a>
-                        
+                        <a href="" className="list">contato@mellows.com.br</a>
+
                     </div>
-                    <div class="col-lg-4 col-sm-12">
-                    <h6>
-                            <i class="fa fa-github" aria-hidden="true" id="gt"></i>
+                    <div className="col-lg-4 col-sm-12">
+                        <h6>
+                            <i className="fa fa-github" aria-hidden="true" id="gt"></i>
                             Conheça o projeto:
                         </h6>
                         <a href="https://github.com/Mellows01/Projeto-Mellows-Recode">GitHub</a>
-                        
+
                     </div>
-                    <div class="col-lg-4 col-sm-12 ">
+                    <div className="col-lg-4 col-sm-12 ">
                         <h6>
-                            <i class="fa-solid fa-globe" id='globo'></i>
+                            <i className="fa-solid fa-globe" id='globo'></i>
                             Nos siga nas redes
                         </h6>
-                        <p><i class="fa-brands fa-facebook-f" id='fb'></i><a href="..." class="list"> Facebook </a> <i class="fa-brands fa-instagram" id="ig"></i><a href="..." class="list"> Instagram </a></p> 
+                        <p><i className="fa-brands fa-facebook-f" id='fb'></i><a href="..." className="list"> Facebook </a> <i className="fa-brands fa-instagram" id="ig"></i><a href="..." className="list"> Instagram </a></p>
                     </div>
                 </div>
             </div>

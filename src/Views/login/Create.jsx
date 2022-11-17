@@ -52,7 +52,7 @@ export default function Create() {
                 </div>
 
                 <button type="submit" className="btn" id="btnAdmin" onClick={(e) => criarOuEditarLogin(e)}>Enviar</button>
-                <Link to="/login" className="btn" id="btnAdmin" style={{marginLeft: "10px"}}>
+                <Link to="/login" className="btn" id="btnAdmin" style={{ marginLeft: "10px" }}>
                     Cancelar </Link>
             </form>
         </div>
